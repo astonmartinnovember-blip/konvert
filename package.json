@@ -1,0 +1,27 @@
+{
+  "name": "konvert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tesseract.js-data/eng": "^1.0.0",
+    "@tesseract.js-data/kaz": "^1.0.0",
+    "@tesseract.js-data/rus": "^1.0.0",
+    "docx": "^9.7.1",
+    "esbuild": "^0.28.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "tesseract.js": "^7.0.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
